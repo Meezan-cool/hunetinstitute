@@ -1,0 +1,22 @@
+export const menu = [
+    {
+        id:1,
+       name:"HOME",
+       url:"/"
+    },
+    {
+        id:2,
+        name:"ABOUT",
+        url:"/about"
+     },
+     {
+        id:3,
+        name:"COURSE",
+        url:"/course"
+     },
+     {
+        id:4,
+        name:"SERVICES",
+        url:"/services"
+     }
+]

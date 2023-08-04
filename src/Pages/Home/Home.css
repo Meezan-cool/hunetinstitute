@@ -1,0 +1,90 @@
+.Home_case{
+    flex-grow: 1;
+}
+.The_Intro{
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%; */
+    /* top: 40%; */
+    left: 50%;
+    position: relative;
+    text-align: center;
+    transform: translate(-50%);
+    width: 40%;
+    /* color: aliceblue; */
+    margin-top: 7%;
+    background: aliceblue;
+    padding: 10px 20px;
+    
+}
+.The_Intro h1{
+    font-weight: normal;
+    font-family: 'Cinzel', serif;
+    color: #1161f5;
+}
+.The_Intro p{
+    margin-top: 2%;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.the_body{
+    position: relative;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    width: 80%;
+    left: 50%;
+    /* background:#fff9; */
+    margin-top: 22%;
+    transform: translate(-50%);
+}
+.the_body h1{
+    background: #fff9;
+    font-weight: normal;
+    opacity: 1;
+    color: #1161f5;
+    width: 91.87%;
+    position: relative;
+    left: 50.4%;
+    transform: translate(-50%);
+}
+.body_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 2%;
+    position: relative;
+    grid-row-gap: 80px;
+    /* left: 50%;
+    transform: translate(-50%);  */
+}
+.body_card{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%); 
+    background:#0005;
+    border-radius: 10px;
+    width: 80%;
+    height: 250px;
+    /* margin: %; */
+    margin: 5px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.body_card h3{
+    margin-top: 3%;
+    color: #cbf3f8;
+    font-weight: bold;
+    background: #fff7;
+    padding: 7px 15px;
+    border-radius: 7px;
+}
+.body_card p{
+    margin-top: 6%;
+    width: 90%;
+    color: #fff;
+}

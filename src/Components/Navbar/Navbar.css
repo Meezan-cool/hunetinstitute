@@ -1,0 +1,66 @@
+.navbar{
+    /* background: black; */
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+   position: sticky;
+   top: 0;
+   z-index: 1000; 
+    background: #0006;
+    backdrop-filter: blur(15px);
+}
+.menu_container{
+   display: flex;
+   gap: 1.7rem;
+}
+.list{
+    display: flex;
+    color: #f0f8ff;
+   
+}
+.a{
+    cursor: pointer;
+}
+.active{
+    cursor: pointer;
+}
+.sub_navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem
+}
+.hunet_heading h1{
+    color: aliceblue;
+    font-weight: normal;
+}
+.hunet_heading h1 span{
+    font-size: 1.2rem;
+}
+.sub_navbar ul{
+    display: flex;
+    gap: 2rem;
+    text-transform: uppercase;
+}
+.sub_navbar li{
+    list-style: none;
+}
+.sub_navbar a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.bar_logo{
+    display: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+@media (max-width:800px){
+    .bar_logo{
+        display: block;
+    }
+    .menu_container{
+        display: none;
+    }
+}

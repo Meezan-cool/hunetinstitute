@@ -1,0 +1,9 @@
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0rem;
+    /* position: absolute; */
+    /* bottom: 0; */
+    color: aliceblue;
+    background: rgb(152, 178, 233);
+}
