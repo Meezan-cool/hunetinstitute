@@ -33,11 +33,19 @@
     position: relative;
     font-family: 'Cinzel', serif;
     text-align: center;
-    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
     left: 50%;
     /* background:#fff9; */
     margin-top: 22%;
     transform: translate(-50%);
+    background: #0006;
+    padding: 30px;
+    
+    backdrop-filter: blur(4px);
 }
 .the_body h1{
     background: #fff9;
@@ -46,26 +54,35 @@
     color: #1161f5;
     width: 91.87%;
     position: relative;
-    left: 50.4%;
-    transform: translate(-50%);
+    /* left: 50.4%;
+    transform: translate(-50%); */
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
 }
 .body_cards{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     margin-top: 2%;
     position: relative;
-    grid-row-gap: 80px;
+    /* width: 80%; */
+    grid-row-gap: 50px;
+    align-items: center;
+    justify-items: center;
     /* left: 50%;
     transform: translate(-50%);  */
 }
 .body_card{
     position: relative;
-    left: 50%;
-    transform: translate(-50%); 
+    /* left: 50%;
+    transform: translate(-50%);  */
     background:#0005;
+    /* filter: blur(10px); */
     border-radius: 10px;
     width: 80%;
-    height: 250px;
+    height: 40vh;
+    /* width: 600vh; */
+    border-radius: 8px;
+    height: 40vh;
     /* margin: %; */
     margin: 5px;
     padding: 20px 10px;
@@ -74,6 +91,7 @@
     /* justify-content: center; */
     justify-content: flex-start;
     flex-direction: column;
+    backdrop-filter: blur(10px);
 }
 .body_card h3{
     margin-top: 3%;
@@ -86,5 +104,95 @@
 .body_card p{
     margin-top: 6%;
     width: 90%;
+    font-family: 'Edu SA Beginner', cursive;
     color: #fff;
+}
+.the_Course{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    /* z-index: 1000; */
+    margin-top: 10%;
+    background: #fff1;
+    color: aliceblue;
+    padding-bottom: 5%;
+    backdrop-filter: blur(4px);
+
+}
+.the_Course h1{
+    margin-top: 2%;
+    font-weight: normal;
+}
+.course_cards{
+    margin-top: 2%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.course_card{
+    /* background: #cbf3f8; */
+    background: rgba(24, 173, 241, 0.6);
+    /* height: 300px; */
+    width: 90%;
+    border-radius: 8px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.course_card img{
+    width: 100px;
+}
+@media(max-width:800px){
+    .The_Intro h1{
+     font-size: 1.5rem;
+    }
+    .The_Intro p{
+        font-size: .8rem;
+    }
+    .the_body{
+        width: 70%;
+    }
+    .the_body h1{
+        font-size: 1.2rem;
+    }
+    .body_cards{
+        grid-template-columns: 1fr;
+        
+    }
+    .body_card{
+        width: 60%;
+    }
+    .body_card h3{
+        font-size: .9rem;
+    }
+    .body_card p{
+        font-size: .8rem;
+    }
+    .course_cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width:600px){
+    .The_Intro h1{
+        font-size: 1rem;
+       }
+       .The_Intro p{
+           font-size: .6rem;
+       }
+       .the_body h1{
+        font-size: .9rem;
+        width: 65%;
+    }
+    .course_cards{
+        grid-template-columns: 1fr ;
+    }
 }

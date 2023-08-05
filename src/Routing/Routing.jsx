@@ -29,9 +29,9 @@ const Routing = () => {
               },
             //   {
             //     startValue: 0,
-            //     endValue: 10, // Rotate by 45 degrees
+            //     endValue: 90, // Rotate by 45 degrees
             //     property: "rotate" // Add rotate property
-            //   }
+            // }
             ]
           },{
             start:600,
@@ -47,11 +47,11 @@ const Routing = () => {
                endValue:1.88,
                property:"scale"
               },
-            //   {
-            //       startValue: 10,
-            //       endValue: -10, // Rotate by 45 degrees
-            //       property: "rotate" // Add rotate property
-            //   }
+              // {
+              //     startValue: 90,
+              //     endValue: 180, // Rotate by 45 degrees
+              //     property: "rotate" // Add rotate property
+              // }
             ]
           },
           {
@@ -60,19 +60,40 @@ const Routing = () => {
             properties:[
               {
                 startValue: .5,
-                endValue: .3,
+                endValue: 0,
                 property: "opacity"
               },
               {
                startValue:1.88,
-               endValue:1.08,
+               endValue:0.98,
                property:"scale"
               },
-            //   {
-            //       startValue: -10,
-            //       endValue: 0, // Rotate by 45 degrees
-            //       property: "rotate" // Add rotate property
-            //   }
+              // {
+              //     startValue: 180,
+              //     endValue: 360, // Rotate by 45 degrees
+              //     property: "rotate" // Add rotate property
+              // }
+            ]
+          },
+          {
+            start:1800,
+            end:3000,
+            properties:[
+              {
+                startValue: 0,
+                endValue: .5,
+                property: "opacity"
+              },
+              {
+               startValue:.98,
+               endValue: 1.98,
+               property:"scale"
+              },
+              // {
+              //     startValue: 180,
+              //     endValue: 360, // Rotate by 45 degrees
+              //     property: "rotate" // Add rotate property
+              // }
             ]
           }
 

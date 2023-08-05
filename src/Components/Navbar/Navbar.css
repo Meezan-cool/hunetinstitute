@@ -21,9 +21,16 @@
 }
 .a{
     cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 7px;
 }
 .active{
     cursor: pointer;
+    /* color: #0348dd; */
+    /* background: aliceblue; */
+    border-bottom: 2px solid #f0f8ff ;
+    padding: 5px 10px;
+    /* border-radius: 7px; */
 }
 .sub_navbar{
     display: flex;
