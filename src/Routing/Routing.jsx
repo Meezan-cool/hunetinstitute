@@ -99,16 +99,6 @@ const Routing = () => {
 
         ]}
         className='logo_hunet'
-        // style={{
-        //   position: "fixed",
-        //   left: "50%",
-        //   top: "50%",
-        //   top: "20%",
-            // left: "35%",
-            // transform: "translate(-50%, -50%)"
-          // width: "100%"
-          // width:"30vw"
-        // }}
       >
        
         <img

@@ -9,19 +9,12 @@ const Navbar = () => {
   return (
   
    <nav className='navbar'>
-    {/* <img src="./Components/Navbar/20230804_142555_0000.png" alt="" /> */}
-    {/* <img src={require('./20230804_142555_0000.png')} alt="logo" /> */}
     <div className='sub_navbar'>
     <div className='hunet_heading'>
       <h1>
         HUNET <span> TECH</span>
       </h1>
     </div>
-    {/* <ul >
-        <li><a href='#home'>Home</a></li>
-        <li><a href='#home'>Course</a></li>
-        <li><a href='#home'>About</a></li>
-    </ul> */}
     <div className='menu_container'>
     {menu.map((item,id)=>{
       return(
